@@ -15,9 +15,9 @@ public class Main {
         nomeProjeto = nomeProjeto.toUpperCase();
 
          // TODO: Converta o nome do projeto para letras maiúsculas e calcule seu comprimento
-        if (nomeProjeto.trim().equals("")){
-            System.out.println("INVALIDO")
-        }{
+        if (nomeProjeto.trim().isEmpty()){
+            System.out.println("INVALIDO");
+        } else{
             // Imprima o nome em maiúsculas seguido de um espaço e do número de caracteres.
             System.out.println(nomeProjeto.toUpperCase() + " " + nomeProjeto.length());
         }
